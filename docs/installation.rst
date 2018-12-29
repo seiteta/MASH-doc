@@ -1,7 +1,5 @@
-============
-Installation
-============
+======================
+Fonctions de transfert
+======================
 
-Install the package with pip::
-
-    $ pip install read-the-docs-template
+Voici les fonctions de transfert disponibles: beta, gamma, normale.
