@@ -4,16 +4,16 @@ Bienvenue sur la documentation de MASH
 Sommaire :
 
 .. toctree::
-  :maxdepth: 2
-  :caption: Principe de fonctionnement
+   :maxdepth: 2
+   :caption: Principe de fonctionnement
 
-  convolution
-  architecture
+   convolution
+   architecture
 
 
 .. toctree::
-  :maxdepth: 2
-  :caption: Interface graphique
+   :maxdepth: 2
+   :caption: Interface graphique
 
-  inputs
-  outputs
+   inputs
+   outputs
