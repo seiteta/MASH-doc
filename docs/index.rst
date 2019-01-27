@@ -1,25 +1,10 @@
-.. Read the Docs Template documentation master file, created by
-   sphinx-quickstart on Tue Aug 26 14:19:49 2014.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Bienvenue sur la documentation de MASH
+======================================
 
-Welcome to Read the Docs Template's documentation!
-==================================================
-
-Contents:
+Sommaire :
 
 .. toctree::
    :maxdepth: 2
-   :glob:
+   :caption: Principe de fonctionnement du modèle MASH
 
-   *
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+   convolution
