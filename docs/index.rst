@@ -17,3 +17,7 @@ Sommaire :
 
    inputs
    outputs
+
+
+.. hint::
+  Ceci est un conseil !
