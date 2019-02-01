@@ -1,8 +1,6 @@
 Bienvenue sur la documentation de MASH
 ======================================
 
-Sommaire :
-
 .. toctree::
    :maxdepth: 2
    :caption: Principe de fonctionnement
@@ -20,10 +18,15 @@ Sommaire :
    GUI/inputs_GUI
    GUI/outputs_GUI
    GUI/transfer_function_GUI
-   GUI/file
-   GUI/data
-   GUI/inversion
-   GUI/tools
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Menu
+   menu/file
+   menu/data
+   menu/inversion
+   menu/tools
 
 
 .. toctree::
