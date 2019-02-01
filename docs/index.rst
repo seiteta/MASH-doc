@@ -17,13 +17,13 @@ Bienvenue sur la documentation de MASH
 
    GUI/inputs_GUI
    GUI/outputs_GUI
-   GUI/transfer_function_GUI
+   GUI/transfer_functions_GUI
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Menu
-   
+
    menu/file
    menu/data
    menu/inversion
