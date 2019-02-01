@@ -15,6 +15,7 @@ Bienvenue sur la documentation de MASH
    :maxdepth: 2
    :caption: Interface graphique
 
+   GUI/global
    GUI/inputs_GUI
    GUI/outputs_GUI
    GUI/transfer_functions_GUI
