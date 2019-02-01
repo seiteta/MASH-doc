@@ -6,7 +6,7 @@ Une des principales différences entre MASH et les autres modèles systémiqu
 Trois caractéristiques du modèle sont laissées à discrétion de l’utilisateur pour chaque nouveau problème : le nombre d’entrées, le nombre de fonctions de transfert en série et le type de fonctions de transfert utilisé.
 
 
-versatilité
+Versatilité
 -----------
 
 Le nombre d’entrées, compris entre un et quatre, définit également le nombre de branches parallèles que comporte le modèle. Le nombre de fonctions de transfert en série, compris entre un et trois, impose la taille de chacune des branches. Le type de fonction de transfert paramétrique est choisi pour chacune des fonctions du modèle au sein d’une bibliothèque comportant actuellement quatre fonctions type mais pouvant être étendue ultérieurement.

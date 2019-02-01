@@ -23,6 +23,7 @@ Bienvenue sur la documentation de MASH
 .. toctree::
    :maxdepth: 2
    :caption: Menu
+   
    menu/file
    menu/data
    menu/inversion
