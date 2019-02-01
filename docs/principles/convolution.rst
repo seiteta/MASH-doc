@@ -16,5 +16,5 @@ Considérons, dans le cas d’un bassin versant, une entrée définie par la 
 Après avoir caractérisé le système, en ayant calculé sa réponse impulsionnelle, il est possible de calculer la valeur de la sortie au temps :math:`t` à partir de la chronique d’entrée en faisant la somme de versions de la fonction de transfert translatées et multipliées par l’amplitude d’entrée de l’impulsion.
 
 .. image:: ../img/convolution2.svg
-  :width: 400
+  :width: 460
   :alt: Somme des réponses impulsionnelles
