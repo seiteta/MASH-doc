@@ -7,40 +7,32 @@ Sommaire :
    :maxdepth: 2
    :caption: Principe de fonctionnement
 
-   convolution
-   architecture
-   transfer_function
-   optimization
+   principles/convolution
+   principles/architecture
+   principles/transfer_function
+   principles/optimization
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Interface graphique
 
-   inputs_GUI
-   outputs_GUI
-   transfer_function_GUI
-
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Menu
-
-   file
-   data
-   inversion
-   tools
-
+   GUI/inputs_GUI
+   GUI/outputs_GUI
+   GUI/transfer_function_GUI
+   GUI/file
+   GUI/data
+   GUI/inversion
+   GUI/tools
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Exemples
 
-   example_1
-   example_2
-   example_3
-
+   examples/example_1
+   examples/example_2
+   examples/example_3
 
 
 .. hint::
