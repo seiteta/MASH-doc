@@ -6,6 +6,15 @@ Le modèle MASH utilise une approche basée sur les fonctions de transfert (ou n
 :math:`S ( t ) = ( E * H ) ( t ) = \int _ { 0 } ^ { t } E ( \tau ) . H ( \mathrm { t } - \tau ) \cdot \mathrm { d } \tau`
 
 
+
+Considérons, dans le cas d’un bassin versant, une entrée définie par la chronique des pluies, la sortie définie par le débit d'une rivière. En isolant un évènement pluvieux de type impulsion, c’est-à-dire de durée inférieure ou égale au pas de temps d’échantillonnage, la réponse en débit du système est égale à sa fonction de transfert, multiplié par l’intensité de l’impulsion.
+
 .. image:: ../img/convolution.svg
+  :width: 200
+  :alt: Réponse impulsionnelle
+
+Après avoir caractérisé le système, en ayant calculé sa réponse impulsionnelle, il est possible de calculer la valeur de la sortie au temps :math:`t` à partir de la chronique d’entrée en faisant la somme de versions de la fonction de transfert translatées et multipliées par l’amplitude d’entrée de l’impulsion.
+
+.. image:: ../img/convolution2.svg
   :width: 400
-  :alt: Convolution
+  :alt: Somme des réponses impulsionnelles
