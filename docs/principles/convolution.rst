@@ -2,6 +2,6 @@ Convolution
 ===========
 
 
-La sortie du système  est égale au produit de convolution de l’entrée  et de la fonction de transfert  définie par :
+La sortie du système :math:`S(t)` est égale au produit de convolution de l’entrée :math:`E(t)` et de la fonction de transfert :math:`H(t)` définie par :
 
-Test Latex :math:`\sigma_{1}` fin du test
+:math:`S ( t ) = ( E * H ) ( t ) = \int _ { 0 } ^ { t } E ( \tau ) . H ( \mathrm { t } - \tau ) \cdot \mathrm { d } \tau`
