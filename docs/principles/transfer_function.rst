@@ -5,7 +5,7 @@ On rappelle que MASH permet de choisir chacune des fonctions de transfert dans u
 
 La faible paramétrisation permet au modèle global d’être parcimonieux et d’éviter « la malédiction de la dimension » lors de la procédure d’optimisation. Les fonctions restent simples et la complexité provient uniquement de la mise en série/parallèle de fonctions élémentaires. Le sens physique de cette mise en série (évènements successifs dans le temps ou l'espace) ou parallèle (évènements concomitants ou disjoints spatialement) est simple et relativement facile à jauger au regard de la réalité du problème modélisé. Le caractère général représente la capacité d’une fonction de transfert à englober d’autres modèles plus simples selon la valeur de ses paramètres. Une même fonction représente ainsi plusieurs modèles, ce qui facilite la programmation du logiciel et augmente les possibilités offertes. L’interprétation physique apporte les avantages des modèles conceptuels à la modélisation systémique comme l’interprétation phénoménologique du fonctionnement du système et l’éventuel rapprochement entre les paramètres du modèle et les caractéristiques physiques du terrain.
 
-Les quatre fonctions de la bibliothèque de MASH sont toutes des fonctions de densité de probabilité : loi Gamma, loi normale, loi Bêta et loi de puissance (les fonctions ci-dessous ne sont pas toutes normalisées par un coefficient multiplicateur qui amènerait leur intégrale à un. On verra plus loin que ce coefficient peut être assimilé dans le gain de la branche du modèle).
+Les quatre fonctions de la bibliothèque de MASH sont toutes des fonctions de densité de probabilité : loi Gamma, loi normale, loi Bêta et loi de puissance (les fonctions ci-dessous ne sont pas toutes normalisées par un coefficient multiplicateur qui amènerait leur intégrale à un. On verra plus loin que ce coefficient peut être assimilé dans le gain de la branche du modèle) :
 
 
 Loi Gamma
@@ -26,6 +26,9 @@ Loi Bêta
 --------
 
 :math:`H ( t ) = \frac { t ^ { n - 1 } ( 1 - t ) ^ { m - 1 } } { \beta ( n , m ) }`
+
+avec
+
 :math:`\beta ( x , y ) = \int _ { 0 } ^ { 1 } t ^ { x - 1 } ( 1 - t ) ^ { y - 1 } d t`
 
 
@@ -33,3 +36,8 @@ Loi de puissance
 ----------------
 
 :math:`H ( t ) = \frac { 1 } { ( 1 + \alpha t ) ^ { n } }`
+
+
+Certaines de ces fonctions possèdent normalement un paramètre de plus qui est un coefficient multiplicateur. Celui-ci n’est pas pris en compte pour les fonctions élémentaires de transfert et est remplacé par le gain total de la branche afin de limiter le nombre de paramètres à optimiser. D’un point de vue modélisation, il est équivalent d’avoir un gain par fonction de transfert élémentaire et un gain pour la fonction de transfert équivalente (le produit de convolution des trois fonctions élémentaires en série). En effet une fonction de transfert peut s’écrire sous la forme :
+
+(suite p.52)
