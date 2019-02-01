@@ -38,7 +38,3 @@ Bienvenue sur la documentation de MASH
    examples/example_1
    examples/example_2
    examples/example_3
-
-
-.. hint::
-  Ceci est un conseil !
