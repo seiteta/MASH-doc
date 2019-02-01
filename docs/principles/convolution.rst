@@ -6,6 +6,6 @@ Le modèle MASH utilise une approche basée sur les fonctions de transfert (ou n
 :math:`S ( t ) = ( E * H ) ( t ) = \int _ { 0 } ^ { t } E ( \tau ) . H ( \mathrm { t } - \tau ) \cdot \mathrm { d } \tau`
 
 
-.. image:: img/convolution.png
+.. image:: img/convolution.svg
   :width: 400
   :alt: Convolution
